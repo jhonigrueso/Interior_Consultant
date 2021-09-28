@@ -40,7 +40,7 @@
 </p>
 
 - Where can I see your demo? ->
-  In The Following Link You Can See My Site Created : <a href="https://myteampag.netlify.app/">https://myteampag.netlify.app/</a>
+  In The Following Link You Can See My Site Created : <a href="https://interior-consultor.netlify.app/">https://interior-consultor.netlify.app/</a>
 - What was your experience? ->
   It was very good because every day I learn how to find solutions to the problems that arise when developing.
 - What have you learned/improved? ->
@@ -52,7 +52,7 @@
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Steps to replicate a design with only HTML and CSS](https://www.youtube.com/watch?v=TeUF-MQZfAw&t=510s)
+- [video that helped me develop the menu](https://www.youtube.com/watch?v=TeUF-MQZfAw&t=510s)
 
 ## Contact
 
