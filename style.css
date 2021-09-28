@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  background: #181719;
+}
+
+.titulo {
+  /* Rectangle 79 */
+  position: absolute;
+  width: 130px;
+  height: 36px;
+  left: 77px;
+  top: 42px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.interior {
+  /* This Interior */
+  position: absolute;
+  width: 100px;
+  height: 16px;
+  left: 18px;
+  top: 1px;
+  font-family: Crimson Pro;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 0px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* DISEÑO DEL MENU */
+
+.line {
+  /* Line 1 */
+  position: absolute;
+  width: 57px;
+  height: 0px;
+  left: 1100px;
+  top: 76px;
+  border: 2px solid #FFFFFF;
+}
+
+.burger-button {
+  width: 2em;
+  height: 2em;
+  display: none;
+  background-image: url('./menu.svg');
+  margin-left: 345px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#btn-menu {
+  display: none;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  /* Home */
+  position: absolute;
+  width: 57px;
+  height: 22px;
+  left: 1100px;
+  top: 46px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.collection {
+  /* Collection */
+  position: absolute;
+  width: 92px;
+  height: 22px;
+  left: 1300px;
+  top: 46px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.about {
+  /* About */
+  position: absolute;
+  width: 57px;
+  height: 22px;
+  left: 1530px;
+  top: 46px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.contact {
+  /* Contact */
+  position: absolute;
+  width: 73px;
+  height: 22px;
+  left: 1700px;
+  top: 46px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+h1 {
+  /* Modern interior */
+  position: absolute;
+  width: 365px;
+  height: 61px;
+  left: 77px;
+  top: 381px;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+
+.parrafo {
+  position: absolute;
+  width: 410px;
+  height: 145px;
+  left: 77px;
+  top: 482px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.read {
+  /* Read more */
+  position: absolute;
+  width: 132px;
+  height: 22px;
+  left: 77px;
+  top: 675px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+#info a {
+  text-decoration: none;
+}
+
+.material-icons {
+  position: absolute;
+  width: 132px;
+  height: 22px;
+  left: 190px;
+  top: 675px;
+  line-height: 25px;
+  font-size: 35px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.imagenes img {
+  /* image 16 */
+  position: absolute;
+  width: 821px;
+  height: 586px;
+  left: 850px;
+  top: 221px
+}
+
+.subcontent {
+  /* Rectangle 78 */
+  position: absolute;
+  width: 410px;
+  height: 189px;
+  left: 1236px;
+  top: 722px;
+  background: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subcontent img {
+  /* image 17 */
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  border-radius: 40px;
+}
+
+.nombre {
+  /* Aliza Webber */
+  position: absolute;
+  width: 95px;
+  height: 17px;
+  left: 90px;
+  top: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.subtitulo {
+  /* Interior designer */
+  position: absolute;
+  width: 102px;
+  height: 15px;
+  left: 89px;
+  top: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+}
+
+.descripcion {
+  /* Designed in 2020 by Aliza Webber */
+  position: absolute;
+  width: 285px;
+  height: 62px;
+  left: 33px;
+  top: 71px;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+
+footer {
+  /* created by username - devChallenges.io */
+  position: absolute;
+  width: 307px;
+  height: 17px;
+  left: 750px;
+  top: 1057px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #A9A9A9;
+}
+
+@media screen and (max-width: 760px) {
+  .burger-button {
+    display: block;
+  }
+  .menu {
+    position: absolute;
+    background: rgba(33, 33, 33, 0.9);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    bottom: 0;
+    transition: all 0.3s;
+  }
+  #btn-menu:checked~.menu {
+    transform: translateX(0%)
+  }
+  #btn-menu:checked~.burger-button {
+    background-image: url("./cancel.svg");
+    position: relative;
+    z-index: 3;
+  }
+  .titulo {
+    /* Rectangle 79 */
+    position: absolute;
+    width: 103px;
+    height: 31px;
+    left: 12px;
+    top: 19px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+  .interior {
+    left: 3px;
+  }
+  .home {
+    /* Home */
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 190px;
+    top: 230px;
+  }
+  .line {
+    left: 190px;
+    top: 255px;
+  }
+  .collection {
+    /* Collection */
+    width: 92px;
+    height: 22px;
+    left: 175px;
+    top: 295px;
+  }
+  .about {
+    /* About */
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 190px;
+    top: 350px;
+  }
+  .contact {
+    /* Contact */
+    position: absolute;
+    width: 73px;
+    height: 22px;
+    left: 180px;
+    top: 410px;
+  }
+  h1 {
+    /* Modern interior */
+    width: 274px;
+    height: 46px;
+    left: 12px;
+    top: 88px;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .parrafo {
+    width: 250px;
+    height: 85px;
+    left: 12px;
+    top: 159px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .read {
+    /* Read more */
+    position: absolute;
+    width: 80px;
+    height: 17px;
+    left: 12px;
+    top: 269px;
+    font-size: 14px;
+  }
+  .material-icons {
+    /* Read more */
+    position: absolute;
+    width: 80px;
+    height: 17px;
+    left: 100px;
+    top: 268px;
+  }
+  .imagenes img {
+    /* image 16 */
+    width: 360px;
+    height: 279px;
+    left: 21px;
+    top: 311px;
+  }
+  .subcontent {
+    /* Rectangle 78 */
+    width: 300px;
+    height: 138px;
+    left: 52px;
+    top: 536px;
+  }
+  .subcontent img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 30px;
+  }
+  .nombre {
+    /* Aliza Webber */
+    position: absolute;
+    width: 95px;
+    height: 17px;
+    left: 73px;
+    top: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  .subtitulo {
+    /* Interior designer */
+    position: absolute;
+    width: 102px;
+    height: 15px;
+    left: 72px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+  }
+  .descripcion {
+    /* Designed in 2020 by Aliza Webber */
+    width: 210px;
+    height: 45px;
+    left: 35px;
+    top: 55px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  footer {
+    /* created by username - devChallenges.io */
+    position: absolute;
+    width: 303px;
+    height: 17px;
+    left: 55px;
+    top: 732px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+  }
+}
